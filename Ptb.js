@@ -14,7 +14,7 @@
 // ========================================================================= //
 
 (function () {
-    const WORKER_HOST = "https://locket-vip.dnhat192.workers.dev";
+    const WORKER_HOST = "https://locket-vip.mhiep20077.workers.dev";
 
     const STICKER_ID_MAP = {
 		"stk_rose_flower": "rose_flower",
@@ -306,10 +306,10 @@
 
             // Chuyển hướng đích đến trực tiếp sang Worker bảo mật (giấu kín tuyệt đối 100% domain Render)
             // Tuyệt đối không để kết nối gốc rò rỉ lên máy chủ Locket chính chủ tránh lỗi "Không thể áp dụng bộ lọc"
-            const targetUrl = "https ://locket-vip.dnhat192.workers.dev/generateFilteredImage?module=_YouTube";
+            const targetUrl = "https://locket-vip.mhiep20077.workers.dev/generateFilteredImage?module=_YouTube";
             let headers = Object.assign({}, ($request && $request.headers) || {});
-            headers["Host"] = "locket-vip.dnhat192.workers.dev";
-            headers["host"] = "locket-vip.dnhat192.workers.dev";
+            headers["Host"] = "locket-vip.mhiep20077.workers.dev";
+            headers["host"] = "locket-vip.mhiep20077.workers.dev";
             headers["X-Module-Origin"] = "Locket_YouTube";
 
             return $done({
