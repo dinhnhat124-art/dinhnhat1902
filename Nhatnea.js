@@ -1588,9 +1588,12 @@ var customPhotoboothFilters = [
                 "allows_try_filter": true,
                 "tryButtonEnabled": true,
                 "try_button_enabled": true
-        },
-        {
-                "uid": "frame_classic_pb",
+           },
+          {
+     
+
+
+                  "uid": "frame_classic_pb",
                 "id": "frame_classic_pb",
                 "name": "Photobooth Cổ Điển",
                 "category": "Photobooth",
@@ -1686,19 +1689,19 @@ var customPhotoboothFilters = [
                 "try_button_enabled": true
         },
         {
-                "uid": "IMG-1080",
-                "id": "IMG-1080",
-                "name": "Locket Đình Nhất",
+                     "uid": "cmt_locket",
+                "id": "cmt_locket",
+                "name": "Locket Việt Nam",
                 "category": "Frames",
-                "prompt": "IMG-1080",
+                "prompt": "cmt_locket",
                 "style": "cutout",
                 "type": "normal",
                 "filterType": "cutout",
                 "overlay": true,
-                "imageUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
-                "iconUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
-                "overlayImageUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
-                "overlayImageURL": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                "imageUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
+                "iconUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
+                "overlayImageUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
+                "overlayImageURL": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
                 "tintColor": "#FF758C",
                 "colors": [
                         "#FF758C",
@@ -1709,9 +1712,58 @@ var customPhotoboothFilters = [
                         "#FF7EB3"
                 ],
                 "icon": {
-                        "url": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
-                        "iconUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
-                        "remoteImage": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                        "url": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
+                        "iconUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
+                        "remoteImage": "https://locket-vip.mhiep20077.workers.dev/assets/frames/cmt_locket.png",
+                        "sfSymbol": "heart.fill",
+                        "symbol": "heart.fill",
+                        "emoji": ""
+                },
+                "outputUrl": null,
+                "productUrl": null,
+                "textColor": "#FFFFFF",
+                "referenceImages": [],
+                "requires_gold": false,
+                "requiresGold": false,
+                "is_gold": false,
+                "isGold": false,
+                "unlocked": true,
+                "is_unlocked": true,
+                "isUnlocked": true,
+                "free": true,
+                "allowsTryFilter": true,
+                "allows_try_filter": true,
+                "tryButtonEnabled": true,
+                "try_button_enabled": true
+        },
+        {
+          
+              "uid": "khung_dnhat_dep_trai",
+                "id": "khung_dnhat_dep_trai",
+                "name": "Đình Nhất DepTrai",
+                "category": "Frames",
+                "prompt": "khung_dnhat_dep_trai",
+                "style": "cutout",
+                "type": "normal",
+                "filterType": "cutout",
+                "overlay": true,
+                "imageUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
+                "iconUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
+                "overlayImageUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
+                "overlayImageURL": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
+                "tintColor": "#FF758C",
+                "colors": [
+                        "#FF758C",
+                        "#FF7EB3"
+                ],
+                "captureButtonColors": [
+                        "#FF758C",
+                        "#FF7EB3"
+                ],
+                "icon": {
+                        "url": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
+                        "iconUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
+                        "remoteImage": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/khung_dnhat_dep_trai.png",
                         "sfSymbol": "heart.fill",
                         "symbol": "heart.fill",
                         "emoji": ""
@@ -1736,17 +1788,17 @@ var customPhotoboothFilters = [
         {
                 "uid": "khung_hello_kitty_pastel_ng_t_ng_o",
                 "id": "khung_hello_kitty_pastel_ng_t_ng_o",
-                "name": "Đình Nhất Đẹp Trai",
+                "name": "Hello Kitty Ngọt Ngào",
                 "category": "Frames",
                 "prompt": "khung_hello_kitty_pastel_ng_t_ng_o",
                 "style": "cutout",
                 "type": "normal",
                 "filterType": "cutout",
                 "overlay": true,
-                "imageUrl": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
-                "iconUrl": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
-                "overlayImageUrl": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
-                "overlayImageURL": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
+                "imageUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
+                "iconUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
+                "overlayImageUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
+                "overlayImageURL": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
                 "tintColor": "#FF758C",
                 "colors": [
                         "#FF758C",
@@ -1757,9 +1809,9 @@ var customPhotoboothFilters = [
                         "#FF7EB3"
                 ],
                 "icon": {
-                        "url": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
-                        "iconUrl": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
-                        "remoteImage": "https://i.ibb.co/rNYHw1G/IMG-0711.png",
+                        "url": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
+                        "iconUrl": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
+                        "remoteImage": "https://locket-vip.mhiep20077.workers.dev/assets/frames/khung_hello_kitty_pastel_ng_t_ng_o.png",
                         "sfSymbol": "heart.fill",
                         "symbol": "heart.fill",
                         "emoji": ""
@@ -4187,8 +4239,9 @@ var customPhotoboothFilters = [
 						"stk_new_year_2026",
                         "frame_classic_pb",
                         "sticker_b_nh_lu_n_minh_tu",
-                        "IMG-1080",
+                        "cmt_locket",
                         "khung_hello_kitty_pastel_ng_t_ng_o",
+                        "khung_dnhat_dep_trai",
                         "khung_hello_kitty_h_ng_pastel",
                         "khung_nh_n_pastel_vi_n_ren",
                         "khung_nh_hoa_pastel_vi_n_xanh_m_nh",
@@ -4221,8 +4274,9 @@ var customPhotoboothFilters = [
 						"stk_new_year_2026",
                         "frame_classic_pb",
                         "sticker_b_nh_lu_n_minh_tu",
-                        "IMG-1080",
+                        "cmt_locket",
                         "khung_hello_kitty_pastel_ng_t_ng_o",
+                        "khung_dnhat_dep_trai",
                         "khung_hello_kitty_h_ng_pastel",
                         "khung_nh_n_pastel_vi_n_ren",
                         "khung_nh_hoa_pastel_vi_n_xanh_m_nh",
@@ -4662,8 +4716,9 @@ var customPhotoboothFilters = [
         "pb_denim_ripped_2x2",
         "frame_classic_pb",
         "sticker_b_nh_lu_n_minh_tu",
-        "IMG-1080",
+        "cmt_locket",
         "khung_hello_kitty_pastel_ng_t_ng_o",
+        "khung_dnhat_dep_trai",
         "khung_hello_kitty_h_ng_pastel",
         "khung_nh_n_pastel_vi_n_ren",
         "khung_nh_hoa_pastel_vi_n_xanh_m_nh",
@@ -5962,7 +6017,7 @@ Object.assign(obj.entries, {
                 ]
         },
         {
-                "section": "🎨 Decorative by MinhHiep08",
+                "section": "🎨 Decorative by DinhNhat1902",
                 "items": [
                         {
                                 "overlay_id": "caption:bunniesept nah",
@@ -5982,7 +6037,7 @@ Object.assign(obj.entries, {
                                 }
                         },
                         {
-                                "overlay_id": "caption:MinhHiep08",
+                                "overlay_id": "caption:DinhNhat1902",
                                 "source": "remote",
                                 "caption": {
                                         "background": {
@@ -5993,7 +6048,7 @@ Object.assign(obj.entries, {
                                                 ]
                                         },
                                         "max_lines": 1,
-                                        "text": "💻 MinhHiep08",
+                                        "text": "💻 DinhNhat1902",
                                         "text_color": "#183153",
                                         "type": "static_content"
                                 }
