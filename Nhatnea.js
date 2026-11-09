@@ -1688,17 +1688,17 @@ var customPhotoboothFilters = [
         {
                 "uid": "IMG-1080",
                 "id": "IMG-1080",
-                "name": "Locket Việt Nam",
+                "name": "Locket Đình Nhất",
                 "category": "Frames",
                 "prompt": "IMG-1080",
                 "style": "cutout",
                 "type": "normal",
                 "filterType": "cutout",
                 "overlay": true,
-                "imageUrl": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
-                "iconUrl": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
-                "overlayImageUrl": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
-                "overlayImageURL": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
+                "imageUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                "iconUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                "overlayImageUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                "overlayImageURL": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
                 "tintColor": "#FF758C",
                 "colors": [
                         "#FF758C",
@@ -1709,9 +1709,9 @@ var customPhotoboothFilters = [
                         "#FF7EB3"
                 ],
                 "icon": {
-                        "url": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
-                        "iconUrl": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
-                        "remoteImage": "https://i.ibb.co/xKs95MBD/IMG-1080.png",
+                        "url": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                        "iconUrl": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
+                        "remoteImage": "https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/IMG_1080.png",
                         "sfSymbol": "heart.fill",
                         "symbol": "heart.fill",
                         "emoji": ""
