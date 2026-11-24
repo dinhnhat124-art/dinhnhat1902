@@ -2,12 +2,12 @@
 // Locket Filters & PhotoBooth Bridge
 // Endpoints: generateFilteredImage and generateCaption
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: @duyvinh09
+// Tác giả: @dnhat192
 // Vui lòng khi chia sẽ hoặc lấy về, làm ơn để nguồn giúp mình. Mình cảm ơn
 // ============================================================
-var WORKER = "https://locket.ledinhnhat08.tech/generateFilteredImage";
+var WORKER = "https://locket.dinhduyvinh.tech/generateFilteredImage";
 var NATIVE_API = /^https:\/\/(?:api\.locketcamera\.com|us-central1-locket-4252a\.cloudfunctions\.net)\/(?:[^?#]*\/)?generateFilteredImage(?:\?|$)/i;
-var CAPTION_WORKER = "https://locket.ledinhnhat08.tech/generateCaption";
+var CAPTION_WORKER = "https://locket.dinhduyvinh.tech/generateCaption";
 var NATIVE_CAPTION_API = /^https:\/\/(?:api\.locketcamera\.com|us-central1-locket-4252a\.cloudfunctions\.net)\/(?:[^?#]*\/)?generateCaption(?:\?|$)/i;
 var isCaptionRequest = false;
 var finished = false;
@@ -102,7 +102,7 @@ function getHeader(source, name) {
     try {
       var parsed = new URL(imageUrl);
       if (parsed.protocol !== "https:") throw Error("NOT_HTTPS");
-      var allowedWorker = parsed.hostname === "locket.ledinhnhat08.tech" && /^\/locket-filters\/[0-9a-f-]{36}\.jpg$/.test(parsed.pathname);
+      var allowedWorker = parsed.hostname === "locket.dinhduyvinh.tech" && /^\/locket-filters\/[0-9a-f-]{36}\.jpg$/.test(parsed.pathname);
       var allowedFirebase = parsed.hostname === "firebasestorage.googleapis.com" && parsed.pathname.indexOf("/v0/b/locket-filters/o/") === 0;
       if (!allowedWorker && !allowedFirebase) throw Error("OUTPUT_HOST_DENIED");
     } catch (e) { return respondError(502, "WORKER_OUTPUT_URL_INVALID"); }
