@@ -1,0 +1,30 @@
+#!name=Locket Vip
+#!desc=Được tổng hợp bởi Lê Đình Nhất
+#!author=dnhat192
+#!howtouse=Shadowrocket
+#Shadowrocket Configuration - Locket Vip
+
+[Rule]
+AND,((DOMAIN,api.locketcamera.com),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
+AND,((DOMAIN,us-central1-locket-4252a.cloudfunctions.net),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
+AND,((DOMAIN,firebaseremoteconfig.googleapis.com),(PROTOCOL,UDP),(DEST-PORT,443)),REJECT
+
+[URL Rewrite]
+^https:\/\/api\.locketcamera\.com\/generateFilteredImage 'https://locket.dinhduyvinh.tech/generateFilteredImage' 307
+
+[Script]
+# RevenueCat - script hiện tại
+locket_revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/Nhatle.js, requires-body=true, max-size=-1, timeout=60
+
+# Xóa header cache
+locket_delete_header = type=http-request, pattern=^https:\/\/(api\.revenuecat\.com|firebaseremoteconfig\.googleapis\.com)\/.+, script-path=https://raw.githubusercontent.com/dinhnhat124-art/nhatdeptrai192/refs/heads/main/locket1.js, timeout=60
+
+# Firebase Remote Config
+locket_unlocked = type=http-response,engine=jsc,script-path=https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/LocketVip.js,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/.+,max-size=0,requires-body=true,timeout=60,script-update-interval=0,enable=true
+
+# AI Filter / Photobooth
+locket_filters = type=http-request, pattern=^https:\/\/(api\.locketcamera\.com|us-central1-locket-4252a\.cloudfunctions\.net)\/(?:[^?#]*\/)?generateFilteredImage(?:\?.*)?$, script-path=https://raw.githubusercontent.com/dinhnhat124-art/dinhnhat1902/refs/heads/main/Filter.js, requires-body=true, max-size=-1, timeout=120
+
+
+[MITM]
+hostname = %APPEND% api.locketcamera.com, firebaseremoteconfig.googleapis.com, api.revenuecat.com
